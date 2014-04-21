@@ -1,0 +1,23 @@
+.hidden {
+	display:none;
+}
+
+.white-box {
+	position: absolute;
+	top: 20px;
+	left: 1px;
+	width: 168px;
+	background-color: white;
+	border: 2px solid black;
+	display: none;
+}
+
+.input-results {
+	position: relative;
+}
+
+ul {
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
