@@ -1,7 +1,6 @@
 class TodoListsController < ApplicationController
 
 	def search
-		binding.pry
 		lists = get_all_lists
 		answers = lists.select{ |w| w.starts_with?(params[:q]) }
 		render json: answers
